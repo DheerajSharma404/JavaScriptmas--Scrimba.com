@@ -11,7 +11,7 @@ Example output: "I'M So hApPy iT'S MoNdAy"
 // ***********SOLUTION**********
 
 function altCaps(str) {
-   //* Observe is that every character at even index is Upper case letter and at odd index is lower case.
+   //* Observe that  every character at even index is Upper case letter and at odd index is lower case.
    return str
       .split("") //* Converting the stirng into char array.
       .map((char, index) =>
