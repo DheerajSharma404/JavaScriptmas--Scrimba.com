@@ -19,7 +19,11 @@ function validTime(str) {
    const [hh, mm] = str.split(":").map((value) => parseInt(value));
    //Here after the spliting the "str", the "newStr" is ["hh","mm"](here hh and mm are stirng). Then we map it by parsing it into number and at the the "newStr" is [hh , mm](here hh and mm is number).
    console.log(hh + ":" + mm); //for testing
+<<<<<<< HEAD
    //24hr-clock format have a range for hours form (0 - 24) and minute is (0-60). so accordng to that it return the value true and false.
+=======
+   //24hr-clock formate have a range for hours form (0 - 24) and minute is (0-60). so accordng to that it return the value true and false.
+>>>>>>> a66b67fa5d6727df373d025145ca7c401464cea4
    return hh >= 0 && hh <= 24 && mm >= 0 && mm <= 60;
 }
 
